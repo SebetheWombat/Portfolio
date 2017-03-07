@@ -4,6 +4,7 @@ body{
 .web-project{
 	min-height: 300px;
 	margin-bottom: 10px;
+	margin-top: 10px;
 	padding: 5px;
 }
 
@@ -21,10 +22,15 @@ body{
 .caption{
 	margin-top: 5px;
 }
+.info{
+	height:95px;
+	padding-top: 15px;
+}
+
 
 @media only screen and (max-width: 992px) and (min-width: 500px){
     .web-project {
-        height:400px;
+        min-height:400px;
     }
     .project-img{
     	height:300px;
