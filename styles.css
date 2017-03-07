@@ -1,0 +1,32 @@
+body{
+	background: #e8e5e1;
+}
+.web-project{
+	height: 300px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.project-img{
+	height:75%;
+	width: 100%;
+}
+.project-screen{
+	background: rgba(255,255,255,.7);
+	height: 75%;
+	position: absolute;
+	padding: 5px;
+	top: 0;
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+.caption{
+	height: 25%;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 500px){
+    .web-project {
+        height:400px;
+    }
+}
