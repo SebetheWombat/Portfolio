@@ -2,31 +2,31 @@ body{
 	background: #e8e5e1;
 }
 .web-project{
-	height: 300px;
+	min-height: 300px;
 	margin-bottom: 10px;
 	padding: 5px;
 }
 
 .project-img{
-	height:75%;
+	height: 225px;
 	width: 100%;
+	
 }
-.project-screen{
-	background: rgba(255,255,255,.7);
-	height: 75%;
-	position: absolute;
-	padding: 5px;
-	top: 0;
-	font-size: 20px;
-	line-height: 1.6;
+.project-img:hover{
+	box-shadow: 3px 3px 10px #9b8d71;
 }
-
+.tech{
+	font-style: italic;
+}
 .caption{
-	height: 25%;
+	margin-top: 5px;
 }
 
 @media only screen and (max-width: 992px) and (min-width: 500px){
     .web-project {
         height:400px;
+    }
+    .project-img{
+    	height:300px;
     }
 }
